@@ -1,0 +1,42 @@
+# ---------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# ---------------------------------------------------------------
+# Editors / OS
+# ---------------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / temporary files
+*.log
+nohup.out
+*.tmp
+
+# ---------------------------------------------------------------
+# Dataset (course material, not redistributed): keep only the README
+# that explains how to obtain it. To publish the label files too, add
+#   !images/gt.json
+#   !images/gt_reduced.json
+# ---------------------------------------------------------------
+images/*
+!images/README.md
+
+# ---------------------------------------------------------------
+# Generated outputs: figures/ and results/ ARE versioned on purpose
+# (the README and the report link to them), so they are NOT ignored.
+# ---------------------------------------------------------------

@@ -1,0 +1,67 @@
+{
+  "started_at": "2026-10-04T15:07:50",
+  "protocol": "v2-no-overlap",
+  "train_test_overlap_removed": {
+    "imgs": 180,
+    "test_imgs": 223
+  },
+  "dataset_sizes": {
+    "train_without_imgs_overlap": 2148,
+    "train_without_test_overlap": 2105,
+    "imgs": 180,
+    "test_imgs": 851,
+    "imgs_cropped": 180
+  },
+  "stages": {
+    "dataset_samples": {
+      "status": "ok",
+      "elapsed_s": 0.3
+    },
+    "kmeans_imgs": {
+      "status": "ok",
+      "elapsed_s": 897.3
+    },
+    "knn_imgs": {
+      "status": "ok",
+      "elapsed_s": 558.6
+    },
+    "kmeans_imgs-cropped": {
+      "status": "ok",
+      "elapsed_s": 942.7
+    },
+    "knn_imgs-cropped": {
+      "status": "ok",
+      "elapsed_s": 566.1
+    },
+    "kmeans_test-imgs": {
+      "status": "ok",
+      "elapsed_s": 5091.3
+    },
+    "knn_test-imgs": {
+      "status": "ok",
+      "elapsed_s": 2480.9
+    },
+    "knn_crossval_imgs": {
+      "status": "ok",
+      "elapsed_s": 15.1
+    },
+    "find-bestk_imgs": {
+      "status": "ok",
+      "elapsed_s": 852.3
+    },
+    "find-bestk_imgs-cropped": {
+      "status": "ok",
+      "elapsed_s": 897.2
+    },
+    "retrieval_full": {
+      "status": "ok",
+      "elapsed_s": 19.6
+    },
+    "retrieval_cropped": {
+      "status": "ok",
+      "elapsed_s": 17.0
+    }
+  },
+  "finished_at": "2026-10-04T18:33:28",
+  "total_elapsed_s": 12338.3
+}

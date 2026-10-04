@@ -1,0 +1,21 @@
+{
+  "stage": "retrieval_cropped",
+  "protocol": "v2-no-overlap",
+  "elapsed_s": 16.955793619155884,
+  "generated_at": "2026-10-04T18:33:28",
+  "data": {
+    "kmeans_K": 3,
+    "knn_k": 2,
+    "knn_metric": "euclidean",
+    "knn_features": "raw",
+    "knn_training": "full training images, images overlapping the query set removed",
+    "queries": [
+      "color-blue",
+      "color-black",
+      "shape-flip-flops",
+      "shape-handbags",
+      "combined-shorts-blue"
+    ],
+    "n_images": 180
+  }
+}

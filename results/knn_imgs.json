@@ -1,0 +1,851 @@
+{
+  "stage": "knn_imgs",
+  "protocol": "v2-no-overlap",
+  "elapsed_s": 558.5668258666992,
+  "generated_at": "2026-10-04T15:32:06",
+  "data": {
+    "runs": [
+      {
+        "k": 2,
+        "metric": "euclidean",
+        "features": "raw",
+        "accuracy": 69.44444444444444,
+        "time": 0.752244234085083
+      },
+      {
+        "k": 2,
+        "metric": "euclidean",
+        "features": "mean_rgb",
+        "accuracy": 15.555555555555555,
+        "time": 4.496067762374878
+      },
+      {
+        "k": 2,
+        "metric": "euclidean",
+        "features": "mean_halves",
+        "accuracy": 36.11111111111111,
+        "time": 7.680423259735107
+      },
+      {
+        "k": 2,
+        "metric": "euclidean",
+        "features": "grayscale_mean",
+        "accuracy": 15.555555555555555,
+        "time": 4.78067421913147
+      },
+      {
+        "k": 2,
+        "metric": "manhattan",
+        "features": "raw",
+        "accuracy": 70.55555555555556,
+        "time": 0.8707931041717529
+      },
+      {
+        "k": 2,
+        "metric": "manhattan",
+        "features": "mean_rgb",
+        "accuracy": 15.555555555555555,
+        "time": 5.006087779998779
+      },
+      {
+        "k": 2,
+        "metric": "manhattan",
+        "features": "mean_halves",
+        "accuracy": 36.666666666666664,
+        "time": 8.112831830978394
+      },
+      {
+        "k": 2,
+        "metric": "manhattan",
+        "features": "grayscale_mean",
+        "accuracy": 15.555555555555555,
+        "time": 5.242030143737793
+      },
+      {
+        "k": 2,
+        "metric": "cosine",
+        "features": "raw",
+        "accuracy": 72.77777777777777,
+        "time": 0.8386363983154297
+      },
+      {
+        "k": 2,
+        "metric": "cosine",
+        "features": "mean_rgb",
+        "accuracy": 11.11111111111111,
+        "time": 6.592458248138428
+      },
+      {
+        "k": 2,
+        "metric": "cosine",
+        "features": "mean_halves",
+        "accuracy": 25.555555555555554,
+        "time": 9.09446907043457
+      },
+      {
+        "k": 2,
+        "metric": "cosine",
+        "features": "grayscale_mean",
+        "accuracy": 11.11111111111111,
+        "time": 6.166771650314331
+      },
+      {
+        "k": 3,
+        "metric": "euclidean",
+        "features": "raw",
+        "accuracy": 65.55555555555556,
+        "time": 0.7645263671875
+      },
+      {
+        "k": 3,
+        "metric": "euclidean",
+        "features": "mean_rgb",
+        "accuracy": 12.777777777777777,
+        "time": 4.362675666809082
+      },
+      {
+        "k": 3,
+        "metric": "euclidean",
+        "features": "mean_halves",
+        "accuracy": 33.88888888888889,
+        "time": 7.655865907669067
+      },
+      {
+        "k": 3,
+        "metric": "euclidean",
+        "features": "grayscale_mean",
+        "accuracy": 12.777777777777777,
+        "time": 4.7529520988464355
+      },
+      {
+        "k": 3,
+        "metric": "manhattan",
+        "features": "raw",
+        "accuracy": 67.77777777777779,
+        "time": 0.8584115505218506
+      },
+      {
+        "k": 3,
+        "metric": "manhattan",
+        "features": "mean_rgb",
+        "accuracy": 12.777777777777777,
+        "time": 4.888025283813477
+      },
+      {
+        "k": 3,
+        "metric": "manhattan",
+        "features": "mean_halves",
+        "accuracy": 35.0,
+        "time": 8.160773515701294
+      },
+      {
+        "k": 3,
+        "metric": "manhattan",
+        "features": "grayscale_mean",
+        "accuracy": 12.777777777777777,
+        "time": 5.242578983306885
+      },
+      {
+        "k": 3,
+        "metric": "cosine",
+        "features": "raw",
+        "accuracy": 68.33333333333333,
+        "time": 0.8490114212036133
+      },
+      {
+        "k": 3,
+        "metric": "cosine",
+        "features": "mean_rgb",
+        "accuracy": 11.11111111111111,
+        "time": 6.600732803344727
+      },
+      {
+        "k": 3,
+        "metric": "cosine",
+        "features": "mean_halves",
+        "accuracy": 27.22222222222222,
+        "time": 9.231419801712036
+      },
+      {
+        "k": 3,
+        "metric": "cosine",
+        "features": "grayscale_mean",
+        "accuracy": 11.11111111111111,
+        "time": 6.212557315826416
+      },
+      {
+        "k": 4,
+        "metric": "euclidean",
+        "features": "raw",
+        "accuracy": 68.33333333333333,
+        "time": 0.632378339767456
+      },
+      {
+        "k": 4,
+        "metric": "euclidean",
+        "features": "mean_rgb",
+        "accuracy": 13.88888888888889,
+        "time": 4.354922294616699
+      },
+      {
+        "k": 4,
+        "metric": "euclidean",
+        "features": "mean_halves",
+        "accuracy": 33.88888888888889,
+        "time": 7.731022357940674
+      },
+      {
+        "k": 4,
+        "metric": "euclidean",
+        "features": "grayscale_mean",
+        "accuracy": 13.88888888888889,
+        "time": 4.745285749435425
+      },
+      {
+        "k": 4,
+        "metric": "manhattan",
+        "features": "raw",
+        "accuracy": 69.44444444444444,
+        "time": 0.8647096157073975
+      },
+      {
+        "k": 4,
+        "metric": "manhattan",
+        "features": "mean_rgb",
+        "accuracy": 13.88888888888889,
+        "time": 4.963129758834839
+      },
+      {
+        "k": 4,
+        "metric": "manhattan",
+        "features": "mean_halves",
+        "accuracy": 35.0,
+        "time": 8.153634071350098
+      },
+      {
+        "k": 4,
+        "metric": "manhattan",
+        "features": "grayscale_mean",
+        "accuracy": 13.88888888888889,
+        "time": 5.261267423629761
+      },
+      {
+        "k": 4,
+        "metric": "cosine",
+        "features": "raw",
+        "accuracy": 71.66666666666667,
+        "time": 0.8510515689849854
+      },
+      {
+        "k": 4,
+        "metric": "cosine",
+        "features": "mean_rgb",
+        "accuracy": 11.11111111111111,
+        "time": 6.5152428150177
+      },
+      {
+        "k": 4,
+        "metric": "cosine",
+        "features": "mean_halves",
+        "accuracy": 27.77777777777778,
+        "time": 9.103076457977295
+      },
+      {
+        "k": 4,
+        "metric": "cosine",
+        "features": "grayscale_mean",
+        "accuracy": 11.11111111111111,
+        "time": 6.193687200546265
+      },
+      {
+        "k": 5,
+        "metric": "euclidean",
+        "features": "raw",
+        "accuracy": 68.88888888888889,
+        "time": 0.7107996940612793
+      },
+      {
+        "k": 5,
+        "metric": "euclidean",
+        "features": "mean_rgb",
+        "accuracy": 16.11111111111111,
+        "time": 4.774189472198486
+      },
+      {
+        "k": 5,
+        "metric": "euclidean",
+        "features": "mean_halves",
+        "accuracy": 35.55555555555556,
+        "time": 7.6823694705963135
+      },
+      {
+        "k": 5,
+        "metric": "euclidean",
+        "features": "grayscale_mean",
+        "accuracy": 16.11111111111111,
+        "time": 4.7891435623168945
+      },
+      {
+        "k": 5,
+        "metric": "manhattan",
+        "features": "raw",
+        "accuracy": 65.55555555555556,
+        "time": 0.8695266246795654
+      },
+      {
+        "k": 5,
+        "metric": "manhattan",
+        "features": "mean_rgb",
+        "accuracy": 16.11111111111111,
+        "time": 4.946857690811157
+      },
+      {
+        "k": 5,
+        "metric": "manhattan",
+        "features": "mean_halves",
+        "accuracy": 36.11111111111111,
+        "time": 8.178259372711182
+      },
+      {
+        "k": 5,
+        "metric": "manhattan",
+        "features": "grayscale_mean",
+        "accuracy": 16.11111111111111,
+        "time": 5.2420666217803955
+      },
+      {
+        "k": 5,
+        "metric": "cosine",
+        "features": "raw",
+        "accuracy": 73.33333333333333,
+        "time": 0.8854565620422363
+      },
+      {
+        "k": 5,
+        "metric": "cosine",
+        "features": "mean_rgb",
+        "accuracy": 11.11111111111111,
+        "time": 6.5009825229644775
+      },
+      {
+        "k": 5,
+        "metric": "cosine",
+        "features": "mean_halves",
+        "accuracy": 27.22222222222222,
+        "time": 9.09766936302185
+      },
+      {
+        "k": 5,
+        "metric": "cosine",
+        "features": "grayscale_mean",
+        "accuracy": 11.11111111111111,
+        "time": 6.239870309829712
+      },
+      {
+        "k": 6,
+        "metric": "euclidean",
+        "features": "raw",
+        "accuracy": 68.88888888888889,
+        "time": 0.7889895439147949
+      },
+      {
+        "k": 6,
+        "metric": "euclidean",
+        "features": "mean_rgb",
+        "accuracy": 16.666666666666664,
+        "time": 4.371488809585571
+      },
+      {
+        "k": 6,
+        "metric": "euclidean",
+        "features": "mean_halves",
+        "accuracy": 35.55555555555556,
+        "time": 7.661886215209961
+      },
+      {
+        "k": 6,
+        "metric": "euclidean",
+        "features": "grayscale_mean",
+        "accuracy": 16.666666666666664,
+        "time": 4.692801237106323
+      },
+      {
+        "k": 6,
+        "metric": "manhattan",
+        "features": "raw",
+        "accuracy": 68.33333333333333,
+        "time": 0.7994275093078613
+      },
+      {
+        "k": 6,
+        "metric": "manhattan",
+        "features": "mean_rgb",
+        "accuracy": 16.666666666666664,
+        "time": 4.908687353134155
+      },
+      {
+        "k": 6,
+        "metric": "manhattan",
+        "features": "mean_halves",
+        "accuracy": 37.22222222222222,
+        "time": 8.083105564117432
+      },
+      {
+        "k": 6,
+        "metric": "manhattan",
+        "features": "grayscale_mean",
+        "accuracy": 16.666666666666664,
+        "time": 5.230169057846069
+      },
+      {
+        "k": 6,
+        "metric": "cosine",
+        "features": "raw",
+        "accuracy": 72.22222222222221,
+        "time": 0.7703018188476562
+      },
+      {
+        "k": 6,
+        "metric": "cosine",
+        "features": "mean_rgb",
+        "accuracy": 11.11111111111111,
+        "time": 6.511086940765381
+      },
+      {
+        "k": 6,
+        "metric": "cosine",
+        "features": "mean_halves",
+        "accuracy": 31.11111111111111,
+        "time": 9.145292282104492
+      },
+      {
+        "k": 6,
+        "metric": "cosine",
+        "features": "grayscale_mean",
+        "accuracy": 11.11111111111111,
+        "time": 6.236788034439087
+      },
+      {
+        "k": 7,
+        "metric": "euclidean",
+        "features": "raw",
+        "accuracy": 69.44444444444444,
+        "time": 0.7662904262542725
+      },
+      {
+        "k": 7,
+        "metric": "euclidean",
+        "features": "mean_rgb",
+        "accuracy": 15.0,
+        "time": 4.373782396316528
+      },
+      {
+        "k": 7,
+        "metric": "euclidean",
+        "features": "mean_halves",
+        "accuracy": 33.33333333333333,
+        "time": 7.649945974349976
+      },
+      {
+        "k": 7,
+        "metric": "euclidean",
+        "features": "grayscale_mean",
+        "accuracy": 15.0,
+        "time": 4.6838178634643555
+      },
+      {
+        "k": 7,
+        "metric": "manhattan",
+        "features": "raw",
+        "accuracy": 68.33333333333333,
+        "time": 0.7561466693878174
+      },
+      {
+        "k": 7,
+        "metric": "manhattan",
+        "features": "mean_rgb",
+        "accuracy": 15.0,
+        "time": 5.009891748428345
+      },
+      {
+        "k": 7,
+        "metric": "manhattan",
+        "features": "mean_halves",
+        "accuracy": 35.0,
+        "time": 8.24319577217102
+      },
+      {
+        "k": 7,
+        "metric": "manhattan",
+        "features": "grayscale_mean",
+        "accuracy": 15.0,
+        "time": 5.228941202163696
+      },
+      {
+        "k": 7,
+        "metric": "cosine",
+        "features": "raw",
+        "accuracy": 71.66666666666667,
+        "time": 0.8641128540039062
+      },
+      {
+        "k": 7,
+        "metric": "cosine",
+        "features": "mean_rgb",
+        "accuracy": 11.11111111111111,
+        "time": 6.548771381378174
+      },
+      {
+        "k": 7,
+        "metric": "cosine",
+        "features": "mean_halves",
+        "accuracy": 30.0,
+        "time": 9.14709758758545
+      },
+      {
+        "k": 7,
+        "metric": "cosine",
+        "features": "grayscale_mean",
+        "accuracy": 11.11111111111111,
+        "time": 6.1810081005096436
+      },
+      {
+        "k": 8,
+        "metric": "euclidean",
+        "features": "raw",
+        "accuracy": 68.33333333333333,
+        "time": 0.8286669254302979
+      },
+      {
+        "k": 8,
+        "metric": "euclidean",
+        "features": "mean_rgb",
+        "accuracy": 13.88888888888889,
+        "time": 4.4781577587127686
+      },
+      {
+        "k": 8,
+        "metric": "euclidean",
+        "features": "mean_halves",
+        "accuracy": 36.666666666666664,
+        "time": 7.687557697296143
+      },
+      {
+        "k": 8,
+        "metric": "euclidean",
+        "features": "grayscale_mean",
+        "accuracy": 13.88888888888889,
+        "time": 4.730109453201294
+      },
+      {
+        "k": 8,
+        "metric": "manhattan",
+        "features": "raw",
+        "accuracy": 63.888888888888886,
+        "time": 0.7909655570983887
+      },
+      {
+        "k": 8,
+        "metric": "manhattan",
+        "features": "mean_rgb",
+        "accuracy": 13.88888888888889,
+        "time": 4.936173677444458
+      },
+      {
+        "k": 8,
+        "metric": "manhattan",
+        "features": "mean_halves",
+        "accuracy": 35.55555555555556,
+        "time": 8.166975736618042
+      },
+      {
+        "k": 8,
+        "metric": "manhattan",
+        "features": "grayscale_mean",
+        "accuracy": 13.88888888888889,
+        "time": 5.312767028808594
+      },
+      {
+        "k": 8,
+        "metric": "cosine",
+        "features": "raw",
+        "accuracy": 72.77777777777777,
+        "time": 0.8318262100219727
+      },
+      {
+        "k": 8,
+        "metric": "cosine",
+        "features": "mean_rgb",
+        "accuracy": 11.11111111111111,
+        "time": 6.523937225341797
+      },
+      {
+        "k": 8,
+        "metric": "cosine",
+        "features": "mean_halves",
+        "accuracy": 29.444444444444446,
+        "time": 9.164932489395142
+      },
+      {
+        "k": 8,
+        "metric": "cosine",
+        "features": "grayscale_mean",
+        "accuracy": 11.11111111111111,
+        "time": 6.268585920333862
+      },
+      {
+        "k": 9,
+        "metric": "euclidean",
+        "features": "raw",
+        "accuracy": 68.33333333333333,
+        "time": 0.7132439613342285
+      },
+      {
+        "k": 9,
+        "metric": "euclidean",
+        "features": "mean_rgb",
+        "accuracy": 15.555555555555555,
+        "time": 4.395437479019165
+      },
+      {
+        "k": 9,
+        "metric": "euclidean",
+        "features": "mean_halves",
+        "accuracy": 34.44444444444444,
+        "time": 7.61590313911438
+      },
+      {
+        "k": 9,
+        "metric": "euclidean",
+        "features": "grayscale_mean",
+        "accuracy": 15.555555555555555,
+        "time": 4.766239404678345
+      },
+      {
+        "k": 9,
+        "metric": "manhattan",
+        "features": "raw",
+        "accuracy": 67.22222222222223,
+        "time": 0.7534489631652832
+      },
+      {
+        "k": 9,
+        "metric": "manhattan",
+        "features": "mean_rgb",
+        "accuracy": 15.555555555555555,
+        "time": 4.8847246170043945
+      },
+      {
+        "k": 9,
+        "metric": "manhattan",
+        "features": "mean_halves",
+        "accuracy": 36.666666666666664,
+        "time": 8.171443223953247
+      },
+      {
+        "k": 9,
+        "metric": "manhattan",
+        "features": "grayscale_mean",
+        "accuracy": 15.555555555555555,
+        "time": 5.2483344078063965
+      },
+      {
+        "k": 9,
+        "metric": "cosine",
+        "features": "raw",
+        "accuracy": 70.0,
+        "time": 0.8230431079864502
+      },
+      {
+        "k": 9,
+        "metric": "cosine",
+        "features": "mean_rgb",
+        "accuracy": 11.11111111111111,
+        "time": 6.517052173614502
+      },
+      {
+        "k": 9,
+        "metric": "cosine",
+        "features": "mean_halves",
+        "accuracy": 30.0,
+        "time": 9.17495608329773
+      },
+      {
+        "k": 9,
+        "metric": "cosine",
+        "features": "grayscale_mean",
+        "accuracy": 11.11111111111111,
+        "time": 6.277093887329102
+      },
+      {
+        "k": 10,
+        "metric": "euclidean",
+        "features": "raw",
+        "accuracy": 67.22222222222223,
+        "time": 0.7643816471099854
+      },
+      {
+        "k": 10,
+        "metric": "euclidean",
+        "features": "mean_rgb",
+        "accuracy": 15.0,
+        "time": 4.38837456703186
+      },
+      {
+        "k": 10,
+        "metric": "euclidean",
+        "features": "mean_halves",
+        "accuracy": 36.11111111111111,
+        "time": 7.635715961456299
+      },
+      {
+        "k": 10,
+        "metric": "euclidean",
+        "features": "grayscale_mean",
+        "accuracy": 15.0,
+        "time": 4.778959512710571
+      },
+      {
+        "k": 10,
+        "metric": "manhattan",
+        "features": "raw",
+        "accuracy": 66.66666666666666,
+        "time": 0.8105521202087402
+      },
+      {
+        "k": 10,
+        "metric": "manhattan",
+        "features": "mean_rgb",
+        "accuracy": 15.0,
+        "time": 4.933557033538818
+      },
+      {
+        "k": 10,
+        "metric": "manhattan",
+        "features": "mean_halves",
+        "accuracy": 37.22222222222222,
+        "time": 8.187235116958618
+      },
+      {
+        "k": 10,
+        "metric": "manhattan",
+        "features": "grayscale_mean",
+        "accuracy": 15.0,
+        "time": 5.3026838302612305
+      },
+      {
+        "k": 10,
+        "metric": "cosine",
+        "features": "raw",
+        "accuracy": 68.88888888888889,
+        "time": 0.8492307662963867
+      },
+      {
+        "k": 10,
+        "metric": "cosine",
+        "features": "mean_rgb",
+        "accuracy": 11.11111111111111,
+        "time": 6.546240568161011
+      },
+      {
+        "k": 10,
+        "metric": "cosine",
+        "features": "mean_halves",
+        "accuracy": 30.0,
+        "time": 9.11188554763794
+      },
+      {
+        "k": 10,
+        "metric": "cosine",
+        "features": "grayscale_mean",
+        "accuracy": 11.11111111111111,
+        "time": 6.325894355773926
+      }
+    ],
+    "summary": {
+      "by_combination": [
+        {
+          "metric": "cosine",
+          "features": "raw",
+          "mean_accuracy": 71.29629629629629,
+          "mean_time_s": 0.840296745300293
+        },
+        {
+          "metric": "euclidean",
+          "features": "raw",
+          "mean_accuracy": 68.2716049382716,
+          "mean_time_s": 0.7468356821272109
+        },
+        {
+          "metric": "manhattan",
+          "features": "raw",
+          "mean_accuracy": 67.53086419753086,
+          "mean_time_s": 0.8193313015831841
+        },
+        {
+          "metric": "manhattan",
+          "features": "mean_halves",
+          "mean_accuracy": 36.04938271604939,
+          "mean_time_s": 8.161939356062147
+        },
+        {
+          "metric": "euclidean",
+          "features": "mean_halves",
+          "mean_accuracy": 35.06172839506173,
+          "mean_time_s": 7.666743331485325
+        },
+        {
+          "metric": "cosine",
+          "features": "mean_halves",
+          "mean_accuracy": 28.703703703703702,
+          "mean_time_s": 9.141199853685167
+        },
+        {
+          "metric": "euclidean",
+          "features": "mean_rgb",
+          "mean_accuracy": 14.93827160493827,
+          "mean_time_s": 4.443899578518337
+        },
+        {
+          "metric": "euclidean",
+          "features": "grayscale_mean",
+          "mean_accuracy": 14.93827160493827,
+          "mean_time_s": 4.746664788987902
+        },
+        {
+          "metric": "manhattan",
+          "features": "mean_rgb",
+          "mean_accuracy": 14.93827160493827,
+          "mean_time_s": 4.941903882556492
+        },
+        {
+          "metric": "manhattan",
+          "features": "grayscale_mean",
+          "mean_accuracy": 14.93827160493827,
+          "mean_time_s": 5.256759855482313
+        },
+        {
+          "metric": "cosine",
+          "features": "mean_rgb",
+          "mean_accuracy": 11.11111111111111,
+          "mean_time_s": 6.539611630969578
+        },
+        {
+          "metric": "cosine",
+          "features": "grayscale_mean",
+          "mean_accuracy": 11.11111111111111,
+          "mean_time_s": 6.233584086100261
+        }
+      ],
+      "best_single_run": {
+        "k": 5,
+        "metric": "cosine",
+        "features": "raw",
+        "accuracy": 73.33333333333333,
+        "time": 0.8854565620422363
+      }
+    },
+    "train_size": 2148,
+    "test_size": 180
+  }
+}
